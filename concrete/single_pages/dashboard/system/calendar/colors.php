@@ -26,8 +26,8 @@
 
     <fieldset>
         <legend><?=t('Category Colors')?></legend>
-	
-		<?php if (is_array($topics) && !empty($topics)) {
+
+        <?php if (count($topics)) {
     ?>
             <table class="table" data-table="category-colors">
                 <thead>
